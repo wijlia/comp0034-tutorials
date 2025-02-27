@@ -22,3 +22,7 @@ addopts = "-rA -v"
 testpaths = ["tests"]
 pythonpath = ["src"]
 filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool_coverage_run]
+branch = true
+source = ["flaskr"]
